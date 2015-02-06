@@ -191,7 +191,7 @@ def _leftDrawParaLine(tx, offset, extraspace, words, last=0):
       setXPos(tx, offset)
       tx._textOut(join(words), 1)
       setXPos(tx, -offset)
-     except:
+    except:
          pass
     return offset
 
